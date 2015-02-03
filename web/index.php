@@ -1,9 +1,51 @@
 <?php include('modulos/header.php'); ?>
-           <div class="jumbotron">
-              <!-- SLIDE -->
-               <a href="#"><img src="img/banner/1.jpg" alt="1" class="img-responsive"></a>
-              <!-- END SLIDE -->
-           </div>
+        <div class="clearfix"></div>
+         <!-- SLIDE -->
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                      <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                        <li data-target="#myCarousel" data-slide-to="3"></li>
+                      </ol>
+                      <div class="carousel-inner">
+                        <div class="item active">
+                          <img src="img/banner/1.jpg" class="img-responsive" alt="">
+                          <div class="container">
+                            <div class="carousel-caption">
+                              <h1>TODO PARA TU CARNE ASADA</h1>
+                            </div>
+                          </div>
+                        </div>
+                       <div class="item">
+                          <img src="img/banner/1.jpg" class="img-responsive" alt="">
+                          <div class="container">
+                            <div class="carousel-caption">
+                              <h1>TODO PARA TU CARNE ASADA</h1>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="item">
+                          <img src="img/banner/1.jpg" class="img-responsive" alt="">
+                          <div class="container">
+                            <div class="carousel-caption">
+                              <h1>TODO PARA TU CARNE ASADA</h1>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="item">
+                          <img src="img/banner/1.jpg" class="img-responsive" alt="">
+                          <div class="container">
+                            <div class="carousel-caption">
+                              <h1>TODO PARA TU CARNE ASADA</h1>
+                            </div>
+                          </div>
+                        </div>
+                     </div>
+                      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+                      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+                    </div>
+           <!-- END SLIDE -->
            <div class="container">
               <div class="row">
                  <span class="separator"></span>
@@ -121,5 +163,33 @@
                    </div>
                </div>
               </div>
+           </div>
+           <div class="jumbotron">
+               <div class="container">
+                   <div class="row">
+                       <h1>Con más de 200 sucursales en todo México.</h1>
+                       <a href="#" class="btn btn-verde">Visítanos</a>
+                   </div>
+               </div>
+           </div>
+           <div class="container">
+               <div class="row">
+                   <h1>Contáctanos</h1>
+                   <form>
+                         <div class="form-group">
+                              <input type="text" class="form-control" id="" placeholder="Nombre" maxlength="30">
+                          </div>
+                          <div class="form-group">
+                              <input type="text" class="form-control" id="" placeholder="Teléfono" maxlength="10">
+                          </div>
+                          <div class="form-group">
+                              <input type="email" class="form-control" id="" placeholder="Email">
+                          </div>
+                          <div class="form-group">
+                              <textarea name="" id="" cols="30" rows="10" class="form-control" placeholder="Mensaje"></textarea>
+                          </div>
+                          <button type="submit" class="btn btn-default">Enviar</button>
+                  </form>
+               </div>
            </div>
 <?php include('modulos/footer.php'); ?>
