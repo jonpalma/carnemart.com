@@ -46,20 +46,19 @@
    </div>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/bxslider.min.js"></script>
+    <script src="js/jquery.bxslider.min.js"></script>
     <script type="text/javascript">
             $(document).ready(function(){
-                 $("#myCarousel2").carousel();
-            });
-    </script>
-    <script>
-            $(document).ready(function(){
-              $('.slider4').bxSlider({
-                slideWidth: 300,
-                minSlides: 2,
-                maxSlides: 3,
-                moveSlides: 1,
-                slideMargin: 10
+                $("#myCarousel2").carousel();
+                $('.slider4').bxSlider({
+                pager: false,
+                adaptiveHeight: true,
+                captions: true,
+                slideWidth: 180,
+                minSlides: 3,
+                maxSlides: 6,
+                moveSlides: 3,
+                slideMargin: 5
               });
             });
     </script>

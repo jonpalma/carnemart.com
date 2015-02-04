@@ -1,7 +1,9 @@
 <?php include('modulos/header.php'); ?>
-<div class="row">
-    <img src="img/banner/embutidos.jpg"  class="img-responsive" alt="">
-    <h1>Nosotros</h1>
+<div class="container-fluid">
+    <div class="row">
+        <img src="img/banner/embutidos.jpg"  class="img-responsive" alt="">
+        <h1>Nosotros</h1>
+    </div>
 </div>
 <div class="container-fluid">
     <div class="row">
@@ -40,7 +42,22 @@
         </div>
     </div>
     <div class="jumbotron">
-        
+      <div class="container">
+          <h2>Categorías</h2>
+          <div class="slider4">
+              <div class="slide"><img src="img/productos/res.jpg" class="img-responsive img-circle" title="Res"></div>
+              <div class="slide"><img src="img/productos/aves.jpg" class="img-responsive img-circle" title="Aves"></div>
+              <div class="slide"><img src="img/productos/cerdo.jpg" class="img-responsive img-circle" title="Cerdo"></div>
+              <div class="slide"><img src="img/productos/carnes-frias.jpg" class="img-responsive img-circle" title="Carnes frías"></div>
+              <div class="slide"><img src="img/productos/pescado.jpg" class="img-responsive img-circle" title="Pescado"></div>
+              <div class="slide"><img src="img/productos/lacteos.jpg" class="img-responsive img-circle" title="Lacteos"></div>
+              <div class="slide"><img src="img/productos/bebidas.jpg" class="img-responsive img-circle" title="Bebidas"></div>
+              <div class="slide"><img src="img/productos/comidas-preparadas.jpg" class="img-responsive img-circle" title="Comidas preparadas"></div>
+              <div class="slide"><img src="img/productos/congelados.jpg" class="img-responsive img-circle" title="Congelados"></div>
+              <div class="slide"><img src="img/productos/cremas-yogurts.jpg" class="img-responsive img-circle" title="Cremas & yogurts"></div>
+              <div class="slide"><img src="img/productos/maduros.jpg" class="img-responsive img-circle" title="Maduros"></div>
+          </div>
+      </div>
     </div>
 </div>
 

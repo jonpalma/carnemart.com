@@ -1,6 +1,7 @@
 <?php include('modulos/header.php'); ?>
-        <div class="clearfix"></div>
-         <!-- SLIDE -->
+<div class="container-fluid">
+    <div class="row">
+        <!-- SLIDE -->
                     <div id="myCarousel" class="carousel slide" data-ride="carousel">
                       <ol class="carousel-indicators">
                         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -46,6 +47,8 @@
                       <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
                     </div>
            <!-- END SLIDE -->
+    </div>
+</div>
            <div class="container">
               <div class="row">
                  <span class="separator"></span>
