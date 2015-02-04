@@ -1,7 +1,9 @@
 <?php include('modulos/header.php'); ?>
-<div class="row">
-    <img src="img/banner/nosotros.jpg"  class="img-responsive" alt="">
-    <h1>Nosotros</h1>
+<div class="container-fluid">
+    <div class="row">
+        <img src="img/banner/nosotros.jpg"  class="img-responsive" alt="">
+        <h1>Nosotros</h1>
+    </div>
 </div>
 <div class="container">
     <div class="row">
