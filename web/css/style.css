@@ -32,12 +32,12 @@ Text Domain: Mixen Communication & Web Technology
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     font-style: italic;
-    font-size: 40px;
+    font-size: 50px;
 }
 
 .line-text-b {
-    margin: 0 auto;
-    width: 350px;
+    margin: 10px auto;
+    width: 500px;
     border-bottom: 1px solid #ccc;
     margin-bottom: 50px;
 } 
@@ -164,3 +164,146 @@ Text Domain: Mixen Communication & Web Technology
     box-shadow: none;
 }
 
+
+.btn-promo-text {
+    text-transform: uppercase;  
+}
+
+/** FOOTER **/
+footer {
+    background: #3d3d3d;
+}
+
+.footer-black {
+    margin-top: 20px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    line-height: 20px;
+}
+
+.container .footer-black {
+    padding-right: 6px;
+    padding-left: 6px;
+}
+
+.footer-black h3 {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 8px;
+}
+
+.footer-rights {
+    background-color: #323232;
+    height: 39px;
+    margin: 10px 0px;
+}
+.footer-rights h4 {
+    font: 12px / 20px Helvetica;
+    color: #dfdfdf;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    margin: 0px;
+    padding: 10px 0px 5px;
+}
+
+.footer-black p, .footer-black address  {
+    color: #ffffff;
+    text-align: justify;
+    font-size: 12px;
+}
+
+.footer-black-2 {
+    background: #ff7a00;
+}
+
+.footer-black-2 p  {
+    padding-top: 8px;
+    color: #fff;
+    font-size: 12px;
+}
+
+.footer-black-2 a  {
+    color: #fff;
+    font-size: 12px;
+}
+
+.footer-black ul {
+    text-decoration: none;
+    list-style: none;
+    font-size: 12px;
+    margin: 0;
+}
+
+.footer-black ul li a::before {
+    content: '- ';
+}
+
+.footer-black ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    margin-left: -30px;
+}
+
+.footer-black li a:hover {
+    color: #e3e3e3;
+    text-decoration: underline;
+}
+
+.banner-full {
+    min-width: 100%;
+}
+
+.banner h1 {
+    position: absolute;
+    top: 30%;
+    left: 65%;
+    color: #ffffff;
+    font-family: Helvetica;
+    font-weight: 700;
+    font-size: 80px;
+}
+
+/** FORMS **/
+.form-control {
+    width: 484px;
+    height: 58px;
+    border-radius: 10px;
+    margin: 0 auto;
+    color: #949494;
+    font-size: 15px;
+    padding: 20px 0 10px 20px;
+    resize: none;
+}
+
+
+.btn-light-green {
+    background: #55d975;
+    width: 185px;
+    height: 58px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    box-shadow: 2px 4px 1px 0.00px rgba(0, 1, 1, 0.23);
+    color: #fff;
+    font-weight: 700;
+    font-size: 25px;
+    padding: 10px 30px;
+    position: relative;
+    left: 29%;
+}
+
+.btn-light-green:hover{
+    color: #fff;
+}
+
+.btn-light-green:active {
+    background: #4cbc67;
+    box-shadow: none;    
+}
+
+.banner {
+
+}

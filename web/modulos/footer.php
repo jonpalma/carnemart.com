@@ -1,5 +1,5 @@
 <footer>
-   <div class="container">
+   <div class="container  footer-black">
        <div class="row">
            <div class="col-sm-6 col-md-3">
                <h3>CarneMart</h3>
@@ -11,39 +11,43 @@
            <div class="col-sm-6 col-md-3">
                <h3>Servicios</h3>
                <ul>
-                   <li>Empresa</li>
-                   <li>Servicios</li>
-                   <li>Productos</li>
-                   <li>Sucursales</li>
+                   <li><a href="#">Empresa</a></li>
+                   <li><a href="#">Servicios</a></li>
+                   <li><a href="#">Productos</a></li>
+                   <li><a href="#">Sucursales</a></li>
                </ul>
            </div>
+           <div class="clearfix visible-sm-block"></div>
            <div class="col-sm-6 col-md-3">
                <h3>Productos Destacados</h3>
                <ul>
-                   <li>Res</li>
-                   <li>Aves</li>
-                   <li>Cerdos</li>
-                   <li>Lácteos</li>
-                   <li>Abarrotes</li>
-                   <li>Pescados</li>
-                   <li>Carnes Frías</li>
+                   <li><a href="#">Res</a></li>
+                   <li><a href="#">Aves</a></li>
+                   <li><a href="#">Cerdos</a></li>
+                   <li><a href="#">Lácteos</a></li>
+                   <li><a href="#">Abarrotes</a></li>
+                   <li><a href="#">Pescados</a></li>
+                   <li><a href="#">Carnes Frías</a></li>
                </ul>
            </div>
            <div class="col-sm-6 col-md-3">
                <h3>Información</h3>
                <p>Teléfono: 01 800 52 CARNE</p>
                <p>Email: hola@carnemart.com</p>
-               <adress>
+               <address>
                    Matriz Av. Misión del Bosque No. 100.<br />
                    Col.Valle Escondido<br />
                    31054 Chihuahua (Chihuahua)
-               </adress>
+               </address>
                <a href="#"><img src="img/fb.jpg"  class="img-responsive" alt="CarneMart facebook"></a>
            </div>
            <div class="clearfix"></div>
-           <h4>Todos los derechos reservados CarneMart 2015</h4>
        </div>
    </div>
+   <div class="footer-rights">
+       <h4>Todos los derechos reservados CarneMart 2015</h4>
+   </div>
+   <br />
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.bxslider.min.js"></script>

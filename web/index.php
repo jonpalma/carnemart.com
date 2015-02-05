@@ -1,6 +1,8 @@
 <?php include('modulos/header.php'); ?>
         <div class="clearfix"></div>
-         <!-- SLIDE -->
+        <div class="container-fluid">
+            <div class="row">
+                <!-- SLIDE -->
                     <div id="myCarousel" class="carousel slide" data-ride="carousel">
                       <ol class="carousel-indicators">
                         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -46,9 +48,11 @@
                       <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
                     </div>
            <!-- END SLIDE -->
+            </div>
+        </div>
            <div class="container cont-margin">
               <div class="row">
-                 <h2 class="concept line-text-b">Concepto Integral</h2>
+                 <h2 class="concept line-text-b" style="margin-top: 70px;">Concepto Integral</h2>
                  <div class="col-md-4">
                      <img src="img/negocio.png" alt="negocio" class="img-responsive">
                      <div class="concept-text"><p>Este es un texto que describe al icono de arriba Todo para tu Negocio de CarneMart</p></div>
@@ -252,7 +256,7 @@
                           <div class="form-group">
                               <textarea name="" id="" cols="30" rows="10" class="form-control" placeholder="Mensaje"></textarea>
                           </div>
-                          <button type="submit" class="btn btn-default">Enviar</button>
+                          <button type="submit" class="btn btn-light-green">Enviar</button>
                   </form>
                </div>
            </div>

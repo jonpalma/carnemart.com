@@ -1,8 +1,10 @@
 <?php include('modulos/header.php'); ?>
 <div class="container-fluid">
     <div class="row">
-        <img src="img/banner/contacto.jpg"  class="img-responsive" alt="">
-        <h1>Contacto</h1>
+       <div class="banner">
+           <img src="img/banner/contacto.jpg"  class="img-responsive banner-full" alt="">
+           <h1>Contacto</h1>
+       </div>
     </div>
 </div>
 <div class="container">
