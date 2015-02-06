@@ -15,6 +15,27 @@ Text Domain: Mixen Communication & Web Technology
 
 
 
+/** BANNER **/
+
+.banner-full {
+    min-width: 100%;
+}
+
+.banner h1 {
+    position: absolute;
+    top: 25%;
+    left: 55%;
+    color: #ffffff;
+    font-family: Helvetica;
+    font-weight: 700;
+    font-size: 80px;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+.banner {
+    position: relative;
+    margin-bottom: 30px;
+}
 
 /** CONTENT **/
 
@@ -139,36 +160,6 @@ Text Domain: Mixen Communication & Web Technology
     
 }
 
-.btn-green {
-    box-shadow: 3px 5px 0px 0.00px rgba(159, 159, 159, 0.75);
-    background-color: #1dc045;
-    border: 6px solid #fff;
-    border-radius: 15px; 
-    width: 234px;
-    height: 72px;
-    color: #fff;
-    padding-top: 10px;
-    font-size: 30px;
-    font-family: 'Open Sans';
-    font-weight: 700;
-    margin-top: 20px; 
-    position: relative;
-}
-
-.btn-green:hover {
-    color: #fff !important;
-}
-
-.btn-green:active {
-    background-color: #19a13a;
-    box-shadow: none;
-}
-
-
-.btn-promo-text {
-    text-transform: uppercase;  
-}
-
 /** FOOTER **/
 footer {
     background: #3d3d3d;
@@ -253,22 +244,8 @@ footer {
     text-decoration: underline;
 }
 
-.banner-full {
-    min-width: 100%;
-}
-
-.banner h1 {
-    position: absolute;
-    top: 30%;
-    left: 65%;
-    color: #ffffff;
-    font-family: Helvetica;
-    font-weight: 700;
-    font-size: 80px;
-}
-
 /** FORMS **/
-.form-control {
+.form-index {
     width: 484px;
     height: 58px;
     border-radius: 10px;
@@ -276,9 +253,58 @@ footer {
     color: #949494;
     font-size: 15px;
     padding: 20px 0 10px 20px;
+}
+
+.form-group label {
+    font-family: 'Cooper Std';
+    font-weight: 900;
+    font-size: 14px;
+    color: #323232;
+    text-align: right;
+}
+
+.form-contact {
+    width: 456px;
+    height: 31px;
+    border-radius: 2px;
+}
+
+.form-control {
     resize: none;
 }
 
+/** BUTTONS **/
+
+.btn-green {
+    box-shadow: 3px 5px 0px 0.00px rgba(159, 159, 159, 0.75);
+    background-color: #1dc045;
+    border: 3px solid #fff;
+    border-radius: 15px; 
+    width: 234px;
+    height: 72px;
+    color: #fff;
+    padding-top: 10px;
+    font-size: 30px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    display: block;
+    margin: 20px auto 0px; 
+}
+
+.btn-green:hover, .btn-green:active, .btn-green:focus, .btn-light-green:hover, .btn-light-green:active, .btn-light-green:focus {
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn-green:active {
+    background-color: #19a13a;
+    box-shadow: none;
+}
+
+
+.btn-promo-text {
+    text-transform: uppercase;  
+}
 
 .btn-light-green {
     background: #55d975;
@@ -304,6 +330,8 @@ footer {
     box-shadow: none;    
 }
 
-.banner {
+/** MISC **/
 
+.bottom-margin {
+    margin-bottom: 50px;
 }

@@ -226,7 +226,7 @@
                      <div class="back-suc-text">
                       <h4>Con más de 200 sucursales en todo México.</h4>
                        <p>
-                           <a href="#" class="btn btn-green">Visítanos</a>
+                           <a href="#" class="btn-green">Visítanos</a>
                        </p>
                       </div>
                    </div>
@@ -245,18 +245,18 @@
                    <h1 class="concept line-text-b">Contáctanos</h1>
                    <form>
                          <div class="form-group">
-                              <input type="text" class="form-control" id="" placeholder="Nombre" maxlength="30">
+                              <input type="text" class="form-control form-index" id="" placeholder="Nombre" maxlength="30">
                           </div>
                           <div class="form-group">
-                              <input type="text" class="form-control" id="" placeholder="Teléfono" maxlength="10">
+                              <input type="text" class="form-control form-index" id="" placeholder="Teléfono" maxlength="10">
                           </div>
                           <div class="form-group">
-                              <input type="email" class="form-control" id="" placeholder="Email">
+                              <input type="email" class="form-control form-index" id="" placeholder="Email">
                           </div>
                           <div class="form-group">
-                              <textarea name="" id="" cols="30" rows="10" class="form-control" placeholder="Mensaje"></textarea>
+                              <textarea name="" id="" cols="30" rows="10" class="form-control form-index" placeholder="Mensaje"></textarea>
                           </div>
-                          <button type="submit" class="btn btn-light-green">Enviar</button>
+                          <button type="submit" class="btn-light-green">Enviar</button>
                   </form>
                </div>
            </div>

@@ -1,7 +1,7 @@
 <?php include('modulos/header.php'); ?>
 <div class="container-fluid">
     <div class="row">
-        <img src="img/banner/embutidos.jpg"  class="img-responsive" alt="">
+        <img src="img/banner/embutidos.jpg"  class="img-responsive " alt="">
         <h1>Nosotros</h1>
     </div>
 </div>
