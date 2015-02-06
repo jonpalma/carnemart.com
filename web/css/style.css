@@ -12,6 +12,42 @@ Text Domain: Mixen Communication & Web Technology
 
 /** MENU **/
 
+.logo-mini {
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.navbar, .navbar-brand, .navbar-nav > li > a {
+    min-height: 120px;
+}
+
+.navbar-nav, .dropdown {
+    text-transform: uppercase;
+}
+.navbar-nav > li > a, .dropdown-menu > li > a {
+    color: #0c2074 !important;
+    font-weight: 700;
+    font-family: Helvetica;
+    line-height: 20px;
+}
+
+.navbar-nav > li > a {
+    padding: 50px 20px;
+}
+
+.navbar-nav > li > a:hover, .navbar-nav > li > a:active, .navbar-nav > li > a:focus, 
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:active, .dropdown-menu > li > a:focus {
+    color: #fff !important;
+    background-color: #399ad1 !important;
+    border-bottom: 7px solid #0f6eaf;
+    padding-bottom: 0;
+}
+
+.navbar-default .navbar-nav > .open > a, .dropdown-menu > li > a:hover, .dropdown-menu > li > a:active, .dropdown-menu > li > a:focus {
+    background-image: none;
+}
 
 
 
@@ -23,23 +59,32 @@ Text Domain: Mixen Communication & Web Technology
 
 .banner h1 {
     position: absolute;
-    top: 25%;
-    left: 55%;
+    top: 10%;
+    left: 65%;
     color: #ffffff;
     font-family: Helvetica;
     font-weight: 700;
-    font-size: 80px;
+    font-size: 100px;
     text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.4);
 }
 
 .banner {
     position: relative;
+    margin-top: 120px;
     margin-bottom: 30px;
+    height: 203px;
+    overflow: hidden;
 }
 
 /** CONTENT **/
-
 .separator {
+    width: 116px;
+    border-bottom: 1px solid #CCC;
+    position: absolute;
+}
+
+.separator-left, .separator-right {
+    top: 43%;
 }
 
 .cont-margin {
@@ -72,28 +117,8 @@ Text Domain: Mixen Communication & Web Technology
 .concept-text {
     text-align: center;
     font-size: 20px;
-}
-
-.btn-promo {
-    background-color: #159896;
-    width: 244px;
-    height: 72px;
-    display: block;
-    margin: 0 auto;
-}
-
-.btn-promo-text p {
-    font-size: 17px;
-    font-family: 'OpenSans', sans-serif;
-    font-weight: 200;
-    color: #fff;
-    text-align: center;
-    padding-top: 25px;
-}
-
-.btn-promo-text a {
-    color: #fff;
-    text-decoration: none;
+    font-style: italic;
+    margin: 20px 0;
 }
 
 .back-img {
@@ -264,8 +289,8 @@ footer {
 }
 
 .form-contact {
-    width: 456px;
-    height: 31px;
+    width: 100%;
+    height: auto;
     border-radius: 2px;
 }
 
@@ -301,9 +326,31 @@ footer {
     box-shadow: none;
 }
 
+.btn-promo {
+    background-color: #159896;
+    width: 244px;
+    height: 72px;
+    display: block;
+    margin: 0 auto 50px;
+}
 
 .btn-promo-text {
-    text-transform: uppercase;  
+    text-transform: uppercase; 
+}
+
+.btn-promo-text p {
+    font-size: 17px;
+    font-family: 'OpenSans', sans-serif;
+    font-weight: 200;
+    color: #fff;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.btn-promo-text a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
 }
 
 .btn-light-green {
@@ -317,8 +364,6 @@ footer {
     font-weight: 700;
     font-size: 25px;
     padding: 10px 30px;
-    position: relative;
-    left: 29%;
 }
 
 .btn-light-green:hover{
@@ -330,8 +375,132 @@ footer {
     box-shadow: none;    
 }
 
+.btn-contact-index {
+    width: 484px;
+    display: block;
+    margin: 0 auto;
+}
+
 /** MISC **/
 
-.bottom-margin {
-    margin-bottom: 50px;
+html, body {
+    width: 100%;
+    overflow-x: hidden;
 }
+
+.bottom-margin {
+    margin-bottom: 50px !important;
+}
+.concept-header {
+    width: 100%;
+    position: relative;
+}
+
+.img-center {
+    display: block;
+    margin: 0 auto;
+}
+
+/** MEDIA QUERIES **/
+@media (max-width: 767px) {
+
+.logo-mini {
+    visibility: visible;
+    position: static;
+}
+
+.logo-lg {
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+    
+.navbar, .navbar-brand, .navbar-nav > li > a {
+    min-height: 50px;
+}
+    
+.navbar-nav > li > a {
+    padding: 17px 0;
+}
+
+.banner {
+    margin-top: 50px;
+    height: auto;
+}
+    
+.banner h1{
+    top: -5%;
+    left: 25%;
+    right: 25%;
+    font-size: 40px;
+}
+    
+.line-text-b, .form-index, .btn-contact-index {
+    width: 60%;
+}
+
+.separator {
+    width: 15%;
+}
+    
+.separator-left {
+    left: 5%;
+}
+    
+.separator-right {
+    right: 5%;
+}    
+
+.concept {
+    font-size: 30px;
+}
+        
+}
+
+@media (min-width: 768px) {
+
+.navbar-nav > li > a, .dropdown-menu > li > a {
+    font-size: 10px;
+}
+
+.navbar-nav > li > a {
+    padding: 50px 5px;
+}
+
+.banner h1{
+    left: 50%;
+    font-size: 80px;
+}
+    
+.separator-left {
+    left: 1%;
+}
+    
+.separator-right {
+    right: 1%;
+}    
+
+    
+}
+
+@media (min-width: 992px) {
+
+.navbar-nav > li > a, .dropdown-menu > li > a {
+    font-size: 14px;
+}
+
+.navbar-nav > li > a {
+    padding: 50px 10px;
+}
+    
+.separator-left {
+    left: 18.5%;
+}
+    
+.separator-right {
+    right: 18.5%;
+}
+    
+}
+

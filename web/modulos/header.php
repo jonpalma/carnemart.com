@@ -32,12 +32,15 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                     </button>
-                    <a href="#" class="navbar-brand"><img src="img/logo.png" alt="CarneMart logo" class="img-responsive"></a>
+                    <a href="index.php" class="navbar-brand">
+                        <img src="img/logo.png" alt="CarneMart logo" class="img-responsive logo-lg">
+                        <img src="img/logo-mini.png" alt="CarneMart logo" class="img-responsive logo-mini">
+                    </a>
                 </div>
                 <div class="collapse navbar-collapse navbar-right" id="bs-carnemart-navbar-collapse-1">
                   <ul class="nav navbar-nav">
-                      <li><a href="#">Inicio</a></li>
-                      <li><a href="#">Nosotros</a></li>
+                      <li><a href="index.php">Inicio</a></li>
+                      <li><a href="nosotros.php">Nosotros</a></li>
                       <li class="dropdown">
                           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Productos <span class="caret"></span></a>
                           <ul class="dropdown-menu" role="menu">
@@ -46,11 +49,11 @@
                             <li><a href="#">Res</a></li>
                           </ul>
                         </li>
-                      <li><a href="#">Tiendas</a></li>
+                      <li><a href="sucursales.php">Tiendas</a></li>
                       <li><a href="#">Promociones</a></li>
-                      <li><a href="#">Contacto</a></li>
+                      <li><a href="contacto.php">Contacto</a></li>
                   </ul>
           </div>
             </div>
-        </nav> <br><br>
+        </nav> 
     </header>

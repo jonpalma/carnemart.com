@@ -51,24 +51,28 @@
             </div>
         </div>
            <div class="container cont-margin">
-              <div class="row">
-                 <h2 class="concept line-text-b" style="margin-top: 70px;">Concepto Integral</h2>
-                 <div class="col-md-4">
-                     <img src="img/negocio.png" alt="negocio" class="img-responsive">
+               <div class="row">
+                    <div class="concept-header">
+                        <span class="separator separator-left"></span>
+                        <h2 class="concept line-text-b" style="margin-top: 70px;">Concepto Integral</h2>
+                        <span class="separator separator-right"></span>
+                </div>
+                <div class="col-md-4">
+                     <img src="img/negocio.png" alt="negocio" class="img-responsive img-center">
                      <div class="concept-text"><p>Este es un texto que describe al icono de arriba Todo para tu Negocio de CarneMart</p></div>
                      <div class="btn-promo">
                          <div class="btn-promo-text"><p><a href="#">Ver Promociones</a></p></div>
                     </div>
                  </div>
                  <div class="col-md-4">
-                     <img src="img/reunion.png" alt="negocio" class="img-responsive">
+                     <img src="img/reunion.png" alt="negocio" class="img-responsive img-center">
                      <div class="concept-text"><p>Este es un texto que describe al icono de arriba Todo para tu Negocio de CarneMart</p></div>
                      <div class="btn-promo">
                          <div class="btn-promo-text"><p><a href="#">Ver Promociones</a></p></div>
                     </div>
                  </div>
                  <div class="col-md-4">
-                     <img src="img/cocina.png" alt="negocio" class="img-responsive">
+                     <img src="img/cocina.png" alt="negocio" class="img-responsive img-center">
                      <div class="concept-text"><p>Este es un texto que describe al icono de arriba Todo para tu Negocio de CarneMart</p></div>
                       <div class="btn-promo">
                          <div class="btn-promo-text"><p><a href="#">Ver Promociones</a></p></div>
@@ -106,21 +110,25 @@
            <div class="container">
               <div class="row">
                   <div class="container">
-                   <span class="separator"></span>
-                   <h2 class="concept line-text-b">Productos</h2>
-                   <span class="separator"></span>
+                      <div class="row">
+                          <div class="concept-header">
+                              <span class="separator separator-left"></span>
+                              <h2 class="concept line-text-b">Productos</h2>
+                              <span class="separator separator-right"></span>
+                          </div>
+                      </div>
                </div>
                <div class="row">
                    <div class="col-xs-12 col-sm-6 col-md-3">
                        <div class="products">
-                          <a href="#"><img src="img/productos/res.jpg" alt="Res" class="img-responsive img-circle img-border"><h3>Res</h3>
+                          <a href="#"><img src="img/productos/res.jpg" alt="Res" class="img-responsive img-circle img-border img-center"><h3>Res</h3>
                           </a>
                        </div>
                    </div>
                    <div class="col-xs-12 col-sm-6 col-md-3">
                        <div class="products">
                           <a href="#">
-                           <img src="img/productos/aves.jpg" alt="Aves" class="img-responsive img-circle img-border">
+                           <img src="img/productos/aves.jpg" alt="Aves" class="img-responsive img-circle img-border img-center">
                            <h3>Aves</h3>
                            </a>
                        </div>
@@ -128,7 +136,7 @@
                    <div class="col-xs-12 col-sm-6 col-md-3">
                       <div class="products">
                        <a href="#">
-                           <img src="img/productos/cerdo.jpg" alt="Cerdo" class="img-responsive img-circle img-border">
+                           <img src="img/productos/cerdo.jpg" alt="Cerdo" class="img-responsive img-circle img-border img-center">
                            <h3>Cerdo</h3>
                        </a>
                        </div>
@@ -136,7 +144,7 @@
                    <div class="col-xs-12 col-sm-6 col-md-3">
                       <div class="products">
                        <a href="#">
-                           <img src="img/productos/carnes-frias.jpg" alt="Carnes Frias" class="img-responsive img-circle img-border">
+                           <img src="img/productos/carnes-frias.jpg" alt="Carnes Frias" class="img-responsive img-circle img-border img-center">
                            <h3>Carnes Frias</h3>
                        </a>
                        </div>
@@ -146,7 +154,7 @@
                    <div class="col-xs-12 col-sm-6 col-md-3">
                       <div class="products">
                        <a href="#">
-                           <img src="img/productos/pescado.jpg" alt="Pescado" class="img-responsive img-circle img-border">
+                           <img src="img/productos/pescado.jpg" alt="Pescado" class="img-responsive img-circle img-border img-center">
                            <h3>Pescado</h3>
                        </a>
                       </div>
@@ -154,7 +162,7 @@
                    <div class="col-xs-12 col-sm-6 col-md-3">
                       <div class="products">
                        <a href="#">
-                           <img src="img/productos/lacteos.jpg" alt="Lácteos" class="img-responsive img-circle img-border">
+                           <img src="img/productos/lacteos.jpg" alt="Lácteos" class="img-responsive img-circle img-border img-center">
                            <h3>Lácteos</h3>
                        </a>
                        </div>
@@ -162,7 +170,7 @@
                    <div class="col-xs-12 col-sm-6 col-md-3">
                        <div class="products">
                           <a href="#">
-                           <img src="img/productos/abarrotes.jpg" alt="Abarrotes" class="img-responsive img-circle img-border">
+                           <img src="img/productos/abarrotes.jpg" alt="Abarrotes" class="img-responsive img-circle img-border img-center">
                            <h3>Abarrotes</h3>
                        </a>
                        </div>
@@ -170,7 +178,7 @@
                    <div class="col-xs-12 col-sm-6 col-md-3">
                       <div class="products">
                        <a href="#">
-                           <img src="img/productos/congelados.jpg" alt="Congelados" class="img-responsive img-circle img-border">
+                           <img src="img/productos/congelados.jpg" alt="Congelados" class="img-responsive img-circle img-border img-center">
                            <h3>Congelados</h3>
                        </a>
                        </div>
@@ -180,7 +188,7 @@
                    <div class="col-xs-12 col-sm-6 col-md-3">
                       <div class="products">
                        <a href="#">
-                           <img src="img/productos/cremas-yogurts.jpg" alt="Cremas y Yogurts" class="img-responsive img-circle img-border">
+                           <img src="img/productos/cremas-yogurts.jpg" alt="Cremas y Yogurts" class="img-responsive img-circle img-border img-center">
                            <h3>Cremas Y Yogurts</h3>
                        </a>
                        </div>
@@ -196,7 +204,7 @@
                    <div class="col-xs-12 col-sm-6 col-md-3">
                       <div class="products">
                        <a href="#">
-                           <img src="img/productos/bebidas.jpg" alt="Bebidas" class="img-responsive img-circle img-border">
+                           <img src="img/productos/bebidas.jpg" alt="Bebidas" class="img-responsive img-circle img-border img-center">
                            <h3>bebidas</h3>
                        </a>
                        </div>
@@ -204,7 +212,7 @@
                    <div class="col-xs-12 col-sm-6 col-md-3">
                       <div class="products">
                        <a href="#">
-                           <img src="img/productos/maduros.jpg" alt="Maduros" class="img-responsive img-circle img-border">
+                           <img src="img/productos/maduros.jpg" alt="Maduros" class="img-responsive img-circle img-border img-center">
                            <h3>Maduros</h3>
                        </a>
                        </div>
@@ -242,8 +250,12 @@
           
            <div class="container">
                <div class="row">
-                   <h1 class="concept line-text-b">Contáctanos</h1>
-                   <form>
+                  <div class="concept-header">
+                      <div class="separator separator-left"></div>
+                      <h1 class="concept line-text-b">Contáctanos</h1>
+                      <div class="separator separator-right"></div>
+                  </div>
+                  <form>
                          <div class="form-group">
                               <input type="text" class="form-control form-index" id="" placeholder="Nombre" maxlength="30">
                           </div>
@@ -256,7 +268,9 @@
                           <div class="form-group">
                               <textarea name="" id="" cols="30" rows="10" class="form-control form-index" placeholder="Mensaje"></textarea>
                           </div>
-                          <button type="submit" class="btn-light-green">Enviar</button>
+                          <div class="btn-contact-index">
+                             <button type="submit" class="btn-light-green">Enviar</button> 
+                          </div>
                   </form>
                </div>
            </div>
