@@ -44,9 +44,11 @@
                       <li class="dropdown">
                           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Productos <span class="caret"></span></a>
                           <ul class="dropdown-menu" role="menu">
-                            <li><a href="#">Cerdo</a></li>
-                            <li><a href="#">Ave</a></li>
-                            <li><a href="#">Res</a></li>
+                            <li><a href="cerdo.php">Cerdo</a></li>
+                            <li><a href="aves.php">Ave</a></li>
+                            <li><a href="res.php">Res</a></li>
+                            <li><a href="lacteos.php">Lácteos</a></li>
+                            <li><a href="embutidos.php">Embutidos</a></li>
                           </ul>
                         </li>
                       <li><a href="sucursales.php">Tiendas</a></li>

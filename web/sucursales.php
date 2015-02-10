@@ -1,14 +1,17 @@
 <?php include('modulos/header.php'); ?>
 <div class="container-fluid">
     <div class="row">
-        <img src="img/banner/sucursales.jpg" alt="" class="img-responsive">
+       <div class="banner">
+           <img src="img/banner/sucursales.jpg" alt="" class="img-responsive banner-full">
         <h1>Sucursales</h1>
+       </div>
     </div>
 </div>
 <div class="container">
     <div class="row">
         <div class="col-md-2">
-            <h5>Buscar sucursales</h5>
+           <div class="sidebar">
+               <h5>Buscar sucursales</h5>
             <form>
                 <div class="form-group">
                     <input type="text" class="form-control" id="" placeholder="Estado">
@@ -18,79 +21,87 @@
                 </div>
                 <button type="submit" class="btn btn-default">Enviar</button>
             </form>
+           </div>
         </div>
         <div class="col-md-10">
-            <h3>Sucursales: Chihuahua, Chihuahua</h3>
+           <div class="suc">
+               <h3 class="bottom-margin">Sucursales: Chihuahua, Chihuahua</h3>
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 suc-location">
+                    <img src="img/suc.jpg" alt="" class="img-responsive img-circle img-border img-center">
                     <h4>Chihuahua 2000</h4>
-                    <img src="img/tienda.jpg" alt="" class="img-responsive img-circle">
-                    <adress>
+                    <address>
                         Dirección<br />
                         Parque de Innovación y Transferencia Técnica y Tecnológica (PIT3)<br />
                         2do. Piso / Av. Heroico Colegio Militar 4700 <br /><br />
                         Teléfono<br />
                         614 424 6161
-                    </adress>
+                    </address>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 suc-location">
+                    
+                    <img src="img/suc.jpg" alt="" class="img-responsive img-circle img-border img-center">
                     <h4>Abastos</h4>
-                    <img src="img/tienda.jpg" alt="" class="img-responsive img-circle">
-                    <adress>
+                    <address>
                         Dirección<br />
                         Parque de Innovación y Transferencia Técnica y Tecnológica (PIT3)<br />
                         2do. Piso / Av. Heroico Colegio Militar 4700 <br /><br />
                         Teléfono<br />
                         614 424 6161
-                    </adress>
+                    </address>
                 </div>
             </div>
+           </div>
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 suc-location">
+                    
+                    <img src="img/suc.jpg" alt="" class="img-responsive img-circle img-border img-center">
                     <h4>Juan Escutia</h4>
-                    <img src="img/tienda.jpg" alt="" class="img-responsive img-circle">
-                    <adress>
+                    <address>
                         Dirección<br />
                         Parque de Innovación y Transferencia Técnica y Tecnológica (PIT3)<br />
                         2do. Piso / Av. Heroico Colegio Militar 4700 <br /><br />
                         Teléfono<br />
                         614 424 6161
-                    </adress>
+                    </address>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 suc-location">
+                    
+                    <img src="img/suc.jpg" alt="" class="img-responsive img-circle img-border img-center">
                     <h4>Nueva España</h4>
-                    <img src="img/tienda.jpg" alt="" class="img-responsive img-circle">
-                    <adress>
+                    <address>
                         Dirección<br />
                         Parque de Innovación y Transferencia Técnica y Tecnológica (PIT3)<br />
                         2do. Piso / Av. Heroico Colegio Militar 4700 <br /><br />
                         Teléfono<br />
                         614 424 6161
-                    </adress>
+                    </address>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 suc-location">
+                    
+                    <img src="img/suc.jpg" alt="" class="img-responsive img-circle img-border img-center">
                     <h4>San Quintin</h4>
-                    <img src="img/tienda.jpg" alt="" class="img-responsive img-circle">
-                    <adress>
+                    <address>
                         Dirección<br />
                         Parque de Innovación y Transferencia Técnica y Tecnológica (PIT3)<br />
                         2do. Piso / Av. Heroico Colegio Militar 4700 <br /><br />
                         Teléfono<br />
                         614 424 6161
-                    </adress>
+                    </address>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 suc-location">
+                    
+                    <img src="img/suc.jpg" alt="" class="img-responsive img-circle img-border img-center">
                     <h4>Zaragoza</h4>
-                    <img src="img/tienda.jpg" alt="" class="img-responsive img-circle">
-                    <adress>
+                    <address>
                         Dirección<br />
                         Parque de Innovación y Transferencia Técnica y Tecnológica (PIT3)<br />
                         2do. Piso / Av. Heroico Colegio Militar 4700 <br /><br />
                         Teléfono<br />
                         614 424 6161
-                    </adress>
+                    </address>
                 </div>
             </div>
         </div>

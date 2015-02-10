@@ -9,7 +9,7 @@
 </div>
 <div class="container">
     <div class="row bottom-margin">
-        <div class="col-md-5"><img src="img/tienda.jpg" alt="" class="img-responsive img-circle img-border img-center bottom-margin"></div>
+        <div class="col-md-5"><img src="img/tienda.jpg" alt="" class="img-responsive img-circle img-border img-center img-no-center bottom-margin"></div>
         <div class="col-md-7">
             <form class="form-horizontal">
                 <div class="form-group">

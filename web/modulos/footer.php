@@ -57,7 +57,6 @@
                 $('.slider4').bxSlider({
                 pager: false,
                 adaptiveHeight: true,
-                captions: true,
                 slideWidth: 180,
                 minSlides: 3,
                 maxSlides: 6,
