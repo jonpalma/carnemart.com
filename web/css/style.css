@@ -381,6 +381,17 @@ footer {
     resize: none;
 }
 
+
+.form-search {
+    width: 80%;
+    height: 44px;
+    border: none;
+    box-shadow: none;
+    font: 400 17px / 21px Helvetica;
+    background-color: #f9f9f9;
+    color: #adaeae;
+}
+
 /** BUTTONS **/
 
 .btn-green {
@@ -464,6 +475,13 @@ footer {
     margin: 0 auto;
 }
 
+.btn-search {
+    width: 83px;
+    height: 44px;
+    background: url(../img/Shape-12.png) no-repeat scroll 50% 50% #f9f9f9;
+    border: none;
+}
+
 /** SIDEBAR **/
 .sidebar {
     padding-top: 50px;
@@ -483,6 +501,10 @@ footer {
     font: 400 17px / 21px Helvetica;
     color: #5c5c5c;
     text-align: justify;
+}
+
+.sidebar form {
+    width: 80%;
 }
 
 /** MISC **/
@@ -510,8 +532,9 @@ html, body {
 }
 
 .right-border-separator {
-    height: 533px;
-    border-right: 2px solid #ccc;
+    height: auto;
+    margin-bottom: 20px;
+    border-right: none;
 }
 
 .blue-bg {
@@ -596,12 +619,6 @@ html, body {
     border-bottom: 3px dashed #fff;
 }
 
-.right-border-separator {
-    height: auto;
-    margin-bottom: 20px;
-    border-right: none;
-}
-
 
 @media (min-width: 768px) {
 
@@ -626,6 +643,10 @@ html, body {
     right: 1%;
 }    
 
+.right-border-separator {
+    height: 533px;
+    border-right: 2px solid #ccc;
+}
     
 }
 

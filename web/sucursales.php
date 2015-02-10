@@ -9,25 +9,25 @@
 </div>
 <div class="container">
     <div class="row">
-        <div class="col-md-2">
-           <div class="sidebar">
+        <div class="col-sm-3 col-md-3">
+           <div class="sidebar right-border-separator">
                <h5>Buscar sucursales</h5>
             <form>
                 <div class="form-group">
-                    <input type="text" class="form-control" id="" placeholder="Estado">
+                    <input type="text" class="form-control form-search" id="" placeholder="Estado">
                 </div>
                 <div class="form-group">
-                    <input type="text" class="form-control" id="" placeholder="Ciudad">
+                    <input type="text" class="form-control form-search" id="" placeholder="Ciudad">
                 </div>
-                <button type="submit" class="btn btn-default">Enviar</button>
+                <button type="submit" class="btn-search"></button>
             </form>
            </div>
         </div>
-        <div class="col-md-10">
+        <div class="col-sm-9 col-md-9">
            <div class="suc">
                <h3 class="bottom-margin">Sucursales: Chihuahua, Chihuahua</h3>
             <div class="row">
-                <div class="col-md-6 suc-location">
+                <div class="col-sm-6 col-md-6 suc-location">
                     <img src="img/suc.jpg" alt="" class="img-responsive img-circle img-border img-center">
                     <h4>Chihuahua 2000</h4>
                     <address>
@@ -38,7 +38,7 @@
                         614 424 6161
                     </address>
                 </div>
-                <div class="col-md-6 suc-location">
+                <div class="col-sm-6 col-md-6 suc-location">
                     
                     <img src="img/suc.jpg" alt="" class="img-responsive img-circle img-border img-center">
                     <h4>Abastos</h4>
@@ -53,7 +53,7 @@
             </div>
            </div>
             <div class="row">
-                <div class="col-md-6 suc-location">
+                <div class="col-sm-6 col-md-6 suc-location">
                     
                     <img src="img/suc.jpg" alt="" class="img-responsive img-circle img-border img-center">
                     <h4>Juan Escutia</h4>
@@ -65,7 +65,7 @@
                         614 424 6161
                     </address>
                 </div>
-                <div class="col-md-6 suc-location">
+                <div class="col-sm-6 col-md-6 suc-location">
                     
                     <img src="img/suc.jpg" alt="" class="img-responsive img-circle img-border img-center">
                     <h4>Nueva España</h4>
@@ -79,7 +79,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6 suc-location">
+                <div class="col-sm-6 col-md-6 suc-location">
                     
                     <img src="img/suc.jpg" alt="" class="img-responsive img-circle img-border img-center">
                     <h4>San Quintin</h4>
@@ -91,7 +91,7 @@
                         614 424 6161
                     </address>
                 </div>
-                <div class="col-md-6 suc-location">
+                <div class="col-sm-6 col-md-6 suc-location">
                     
                     <img src="img/suc.jpg" alt="" class="img-responsive img-circle img-border img-center">
                     <h4>Zaragoza</h4>
